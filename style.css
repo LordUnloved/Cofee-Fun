@@ -1,0 +1,54 @@
+main {
+  margin-top: 60px;
+}
+
+main h1 {
+  margin: 10px
+}
+
+main h2 {
+  margin: 30px
+ 
+}
+
+main h3 {
+  border: black
+}
+
+main p {
+  margin: 25px
+}
+
+.background {
+  background-color: #775f47;
+}
+
+.group img {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.item {
+  flex: 1;
+  margin: 20px;
+}
+
+.item2 {
+  flex: 2;
+  margin: 20px;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
